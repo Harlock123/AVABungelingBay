@@ -3,7 +3,7 @@ using Avalonia.Input;
 namespace AVABungelingBay.Engine;
 
 /// <summary>
-/// Keyboard and gamepad boiled down to the controls: left and right, up and down (up the screen is -1), and three buttons.
+/// Keyboard and gamepad boiled down to the controls: left and right, up and down (up the screen is -1), fire and bomb.
 /// </summary>
 public sealed class InputHandler : IDisposable
 {
